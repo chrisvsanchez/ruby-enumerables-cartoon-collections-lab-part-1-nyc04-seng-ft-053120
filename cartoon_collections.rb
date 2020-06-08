@@ -13,7 +13,7 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-each_with_index(array){|ele, index| p "#{ele}"}
-binding.pry
-p "Hello"
+  
+each_with_index(array){|array, index| p "#{ele}"}
+
 end
