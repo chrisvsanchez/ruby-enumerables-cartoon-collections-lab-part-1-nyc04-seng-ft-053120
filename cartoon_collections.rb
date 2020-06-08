@@ -14,6 +14,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-each_with_index(array){|array, index| p "#{index}"}
+array.each do |ele|
+  p "ele"
 
 end
